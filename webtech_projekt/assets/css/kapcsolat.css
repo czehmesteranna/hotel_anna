@@ -1,0 +1,95 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ text-decoration: none;
+font-family: sans-serif;}
+
+body {
+ background-color: #E4EBD7;
+ font-family: Arial, sans-serif;
+ line-height: 1.6;
+}
+
+.navbar {
+ background: #CBDFBD;
+ height: 60px;
+ padding: 0 15px;
+ position: sticky;
+ top: 0;
+ z-index: 100;
+}
+
+.navdiv {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ height: 100%;
+ max-width: 1200px;
+ margin: 0 auto;
+}
+
+.logo a {
+ color: #8D0801;
+ font-size: 24px;
+ font-weight: bold;
+}
+
+ul {
+ display: flex;
+}
+
+li {
+ list-style: none;
+}
+
+li a {
+ color: #8D0801;
+ font-size: 18px;
+ font-weight: bold;
+ margin-right: 25px;
+ transition: color 0.3s;
+}
+
+li a:hover {
+ color: #5a0601;
+}
+.nagykep {
+ width: 650px;
+ height: auto;
+ display: block;
+ margin: 20px auto;
+ border-radius: 8px;
+ box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+
+.hero {
+ background: rgba(0,0,0,0.5);
+ background-size: cover;
+ background-position: center;
+ height: 80vh;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ text-align: center;
+ color: white;
+}
+.udvozles {
+ background-color: #f8f9fa;
+ padding: 60px 20px;
+ text-align: center;
+}
+
+.udvozles-1 {
+ max-width: 800px;
+ margin: 0 auto;
+}
+
+.udvozles{
+ color: #8D0801;
+ font-size: 2.5rem;
+ margin-bottom: 30px;
+ font-weight: 700;
+}
+

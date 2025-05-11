@@ -1,0 +1,141 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ text-decoration: none;
+font-family: sans-serif;}
+
+body {
+ background-color: #E4EBD7;
+ font-family: Arial, sans-serif;
+ line-height: 1.6;
+}
+
+.navbar {
+ background: #CBDFBD;
+ height: 60px;
+ padding: 0 15px;
+ position: sticky;
+ top: 0;
+ z-index: 100;
+}
+
+.navdiv {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ height: 100%;
+ max-width: 1200px;
+ margin: 0 auto;
+}
+
+.logo a {
+ color: #8D0801;
+ font-size: 24px;
+ font-weight: bold;
+}
+
+ul {
+ display: flex;
+}
+
+li {
+ list-style: none;
+}
+
+li a {
+ color: #8D0801;
+ font-size: 18px;
+ font-weight: bold;
+ margin-right: 25px;
+ transition: color 0.3s;
+}
+
+li a:hover {
+ color: #5a0601;
+}
+.service-section {
+display: flex;
+min-height: calc(100vh - 60px); 
+align-items: center;
+background-color: #E4EBD7;
+padding-top: 60px;}
+
+.service-image {
+flex: 1;
+height: calc(100vh - 60px);
+position: sticky;
+top: 60px;
+overflow: hidden;
+ padding-left: 20px;}
+
+.service-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.service-image:hover img {
+    transform: scale(1.03);
+}
+
+.service-content {
+    flex: 1;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.service-content h2 {
+    color: #8D0801;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.service-content p {
+    color: #333;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.service-content ul {
+    display: block;
+}
+
+.service-content li {
+    color: #5a0601;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    position: relative;
+    padding-left: 20px;
+}
+
+.service-content li:before {
+    content: "•";
+    color: #8D0801;
+    position: absolute;
+    left: 0;
+}
+@media (max-width: 768px) {
+    .service-section {
+        flex-direction: column;
+        padding-top: 60px;
+    }
+    
+    .service-image {
+        height: 50vh;
+        position: relative;
+        width: 100%;
+        top: 0;
+
+}
+    
+    .service-content {
+        padding: 30px 20px;
+    }
+    
+    .service-content h2 {
+        font-size: 2rem;
+    }
+}
